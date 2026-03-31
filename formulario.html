@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form action="formulario.html" method="post">
+
+      
+        <label for="">Nombre completo</label>
+        <input type="text" id="txtnombre" name="txtnombre" placeholder="ingresa tu nombre">
+            <br>
+                <br>
+                    <br>
+        <br>
+          <!--nombre-->
+       <label for="txtemail">Direccion de correo</label>
+        <input type="email" id="txtemail" name="txtemail" placeholder="ejem@gmail.com"required>
+        <br>
+        <br>
+        <br>
+        <br>
+         <!--gmail-->
+        <label for="txtnumerodetelefono">Numero de telefono</label>
+        <input type="number" id="txtnumerodetelefono" name="txtnumerodetelefono" placeholder="ejem. +52 87812345">
+        <br> <br> <br><br>
+              <!--tel-->
+        <label for="txtdate">Fecha de nacimiento</label>
+        <input type="date" id="txtdate" name="txtdate">
+        <br><br><br><br>
+         <!--fecha-->
+        <p>Genero</p>
+        <input type="radio" id="hombre" name="genero" value="Hombre" required>
+        <label for="hombre">hombre</label><br><br>
+
+        <input type="radio" id="Mujer" name="genero" value="Mujer" required>
+        <label for="hombre">Mujer</label><br><br>
+             <!--genero-->
+        <input type="radio" id="Otro" name="genero" value="Otro" required>
+        <label for="hombre">Otro</label><br><br><br><br>
+                
+        <label for="txtpass">Contraseña</label>
+        <input type="contra" id="txtpass" name="txtcontraseña" placeholder="minimo 8 caracteres">
+        <br><br><br> <br>
+         <!--pasword-->
+        <label for="txtpassx2">Confirmar Contraseña</label>
+        <input type="password" id="txtpassx2"  name="txtcontraseña" placeholder="min 8 caracteres">
+        <br><br><br> <br>
+          <!--terminos-->
+        <input type="checkbox" id="terminos" name="terminos" required>
+        <label for="terminos">Acepto los terminos y condiciones </label> <br><br><br>
+             <!--boton-->
+        <input type="submit" value="Registrar">
+       
+       
+    </form>
+</body>
+</html>
